@@ -1,0 +1,26 @@
+###
+GET http://localhost:5000/api/p/rate/777
+
+###
+
+PUT http://localhost:5000/api/p/rate/777
+Content-Type: application/json
+
+{
+    "bookingId": "10",
+    "rating":"3.43"
+}
+
+
+###
+GET http://localhost:5000/api/d/rate/123
+
+###
+
+PUT http://localhost:5000/api/d/rate/123
+Content-Type: application/json
+
+{
+    "bookingId": "13",
+    "rating":"3.43"
+}

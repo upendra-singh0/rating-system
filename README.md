@@ -1,5 +1,6 @@
 # RATING SYSTEM
 
+(Node.js Express.js PostgreSQL)
 After the end of a ride passenger and driver is presented with the option to rate a ride.
 
 ### Building
@@ -32,3 +33,4 @@ npm run dev-start
 
 1. Implementing swagger.
 2. Writing test cases
+3. Adding Eslint prettier
